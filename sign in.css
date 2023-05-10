@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("/assets/images/InSaver_Album/home\ 1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .container_2{
+    margin: 0;
+  
+  }
+  .header_2{
+    background-image: url(assets/images/InSaver_Album/bg-curvy-desktop.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background: #1c2431;
+    height: auto;
+    max-width: 100%;
+    background-size: 100% 300px;
+  
+  }
+  .header_2 .nav_bar_2,
+  .header_2 .nav_bar_2 ul{
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+  }
+  .nav_bar_2 img{
+    width: 7rem;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 70px;
+  }
+  .nav_bar_2 ul{
+    width: 240px;
+    margin-right: 25px;
+    font-size: .85rem;
+    display: flex;
+    list-style: none;
+    /* text-decoration: none; */
+  }
+  .cart-icon{
+    position: relative;
+  }
+  .cart-icon a{
+    display: flex;
+    align-items: center;
+    color: #f5f5f5;
+    text-decoration: none;
+  }
+  .cart-icon i{
+    font-size: 40px;
+  }
+  
+  .cart-count{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #207420;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .link{
+    font-size: 15px;
+    transition: .5s;
+    cursor: pointer;
+    padding: 10px;
+    color: #f5f5f5;
+    text-decoration: none;
+  }
+  .link:hover{
+    transform: scale(1.1);
+    transition: all .5s ease;
+    font-size: 18px;
+  }
+  .login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 380px;
+    height: 420px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 5px 22px 0 rgba(209, 211, 233, 0.37);
+    backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .login-form h2 {
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+  }
+  .login-form .user-box {
+    position: relative;
+  }
+  .login-form .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-form .user-box label {
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding: 10px 0;
+     font-size: 16px;
+     color: #fff;
+     pointer-events: none;
+     transition: .5s;
+  }
+  .login-form .user-box input:focus ~ label,
+  .login-form .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #c0c0c0;
+    font-size: 12px;
+  }
+  a {
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .5s;
+    letter-spacing: 3px;
+    margin: 40px 40px;
+    overflow: hidden;
+    font-size: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 5px 22px 0 rgba(209, 211, 233, 0.37);
+    backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  a:hover {
+    transform: scale(1.1);
+  }
+
+  
